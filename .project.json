@@ -38,5 +38,12 @@
     "notifyBeforePushLevel": "Error",
     "blockPush": false,
     "blockPushLevel": "Error"
+  },
+  "mockpreview": {
+    "loadJSONFiles": true,
+    "mockUri": "/destinations/ES4/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/",
+    "metadataFilePath": "../localService/metadata.xml",
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
   }
 }
