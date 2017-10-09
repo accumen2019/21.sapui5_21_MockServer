@@ -12,15 +12,15 @@
 			data-sap-ui-libs="sap.m"
 			data-sap-ui-theme="sap_belize"
 			data-sap-ui-compatVersion="edge"
-			data-sap-ui-resourceroots='{"MockServer": "../"}'>
+			data-sap-ui-resourceroots='{"MockServerMockServer": "../"}'>
 		</script>
 
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-
+<!--		<link rel="stylesheet" type="text/css" href="css/style.css">
+-->
 		<script>
 			sap.ui.getCore().attachInit(function() {
 sap.ui.require([
-	"MockServer/localService/mockserver",
+	"MockServerMockServer/localService/mockserver",
 	"sap/m/Shell",
 	"sap/ui/core/ComponentContainer"
 ], function(mockserver,Shell,ComponentContainer)
@@ -29,7 +29,7 @@ sap.ui.require([
 		new Shell({
 			app:new ComponentContainer({
 				height:"100%",
-				name:"MockServer"
+				name:"MockServerMockServer"
 			})
 		}).placeAt("content");
 	});
